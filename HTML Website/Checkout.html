@@ -1,0 +1,368 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout | Luxe Bags</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+</head>
+
+<body>
+
+    
+    <header>
+<body>
+    <header class="site-header">
+        <div class="brand">
+            <div class="logo" aria-hidden="true">LB </div>
+            <div class="site-title">
+                <h1>LUXE BAGS</h1>
+                <p class="tagline">Chic. Fashionably luxury handbags for him & her.</p>
+            </div>
+        </div>
+    </header>
+<nav class="nav" aria-label="Footer links">
+                <h4><Nav></Nav></h4>
+                
+                    <a href="index.html">Home</a>
+                    <a href="about us.html">About</a>
+                    <a href="catalogue.html">Shop</a>
+                    <a href="cart.html">Cart</a>
+                    <a href="checkout.html">Checkout</a>
+                    <a href="contact.html">Contact</a>
+                
+            </nav>
+        
+    </header>
+
+
+   
+    <main>
+
+        
+        <section>
+
+            <h2>Checkout</h2>
+
+            <p>
+                Enter your details below to complete your order.
+            </p>
+
+        </section>
+
+
+        
+        <section>
+
+            <h2>Customer Information</h2>
+
+            <form>
+
+                <label for="firstName">
+                    First Name:
+                </label>
+
+                <input
+                    type="text"
+                    id="firstName"
+                    name="firstName"
+                    required
+                >
+
+
+                <label for="lastName">
+                    Last Name:
+                </label>
+
+                <input
+                    type="text"
+                    id="lastName"
+                    name="lastName"
+                    required
+                >
+
+
+                <label for="email">
+                    Email Address:
+                </label>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                >
+
+
+                <label for="phone">
+                    Phone Number:
+                </label>
+
+                <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    required
+                >
+
+            </form>
+
+        </section>
+
+
+        
+        <section>
+
+            <h2>Delivery Information</h2>
+
+            <form>
+
+                <label for="address">
+                    Street Address:
+                </label>
+
+                <input
+                    type="text"
+                    id="address"
+                    name="address"
+                    required
+                >
+
+
+                <label for="city">
+                    City:
+                </label>
+
+                <input
+                    type="text"
+                    id="city"
+                    name="city"
+                    required
+                >
+
+
+                <label for="province">
+                    Province:
+                </label>
+
+                <select
+                    id="province"
+                    name="province"
+                    required
+                >
+
+                    <option value="">
+                        Select Province
+                    </option>
+
+                    <option value="Eastern Cape">
+                        Eastern Cape
+                    </option>
+
+                    <option value="Free State">
+                        Free State
+                    </option>
+
+                    <option value="Gauteng">
+                        Gauteng
+                    </option>
+
+                    <option value="KwaZulu-Natal">
+                        KwaZulu-Natal
+                    </option>
+
+                    <option value="Limpopo">
+                        Limpopo
+                    </option>
+
+                    <option value="Mpumalanga">
+                        Mpumalanga
+                    </option>
+
+                    <option value="Northern Cape">
+                        Northern Cape
+                    </option>
+
+                    <option value="North West">
+                        North West
+                    </option>
+
+                    <option value="Western Cape">
+                        Western Cape
+                    </option>
+
+                </select>
+
+
+                <label for="postalCode">
+                    Postal Code:
+                </label>
+
+                <input
+                    type="text"
+                    id="postalCode"
+                    name="postalCode"
+                    required
+                >
+
+            </form>
+
+        </section>
+
+        
+        <section>
+
+            <h2>Payment Method</h2>
+
+            <form>
+
+                <input
+                    type="radio"
+                    id="card"
+                    name="payment"
+                    value="card"
+                >
+
+                <label for="card">
+                    Credit / Debit Card
+                </label>
+
+
+                <input
+                    type="radio"
+                    id="eft"
+                    name="payment"
+                    value="eft"
+                >
+
+                <label for="eft">
+                    EFT
+                </label>
+
+
+                <input
+                    type="radio"
+                    id="cash"
+                    name="payment"
+                    value="cash"
+                >
+
+                <label for="cash">
+                    Cash on Delivery
+                </label>
+
+            </form>
+
+        </section>
+
+
+        
+        <section>
+
+            <h2>Order Summary</h2>
+
+            <article>
+
+                <h3>Winter Selection</h3>
+                    <img src="Images/image 2.webp"width="250"length="150"
+                     alt="Product 2">
+
+
+                <p>
+                    Quantity: 1
+                </p>
+
+                <p>
+                    Price: R4500.00
+                </p>
+
+            </article>
+
+
+            <p>
+                Subtotal: R4500.00
+            </p>
+
+            <p>
+                Delivery: R100.00
+            </p>
+
+            <p>
+                Total: R4600.00
+            </p>
+
+        </section>
+
+
+        
+        <section>
+
+            <input
+                type="checkbox"
+                id="terms"
+                name="terms"
+                required
+            >
+
+            <label for="terms">
+                I agree to the terms and conditions.
+            </label>
+
+        </section>
+
+
+        
+        <section>
+
+            <button type="submit">
+                Place Order
+            </button>
+
+            <p>
+                <a href="cart.html">
+                    Return to Cart
+                </a>
+            </p>
+
+        </section>
+
+    </main>
+
+<footer class="site-footer">
+        <div class="footer-wrap">
+            <div class="footer-brand">
+                <div class="logo small">LB</div>
+                <h3>LUXE BAGS</h3>
+                <p class="muted">Be a Dreamer</p>
+            </div>
+
+            <nav class="footer-nav" aria-label="Footer links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about us.html">About</a></li>
+                    <li><a href="catalogue.html">Shop</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                    <li><a href="checkout.html">Checkout</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="contact">
+                <h4>Contact Us</h4>
+                <p>Email: <a href="mailto:Luxebags240@gmail.com">Luxebags240@gmail.com</a></p>
+                <p>Phone: <a href="tel:+27 84 657 0091">+27 84 657 0091</a></p>
+            </div>
+        </div>
+
+        <div class="legal">
+            <p>&copy; 2026 LUXE BAGS. All rights reserved.</p>
+        </div>
+    </footer>
+
+    
+    

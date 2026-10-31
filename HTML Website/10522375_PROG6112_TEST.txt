@@ -1,0 +1,105 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany._prog6112_test;
+
+/**
+ *
+ * @author Student
+ */
+public class App{
+    
+   // Declare using double array
+        
+        double[][]sales ={{1000,2000,3000},// cape town:PS5,XBOX,SWITCH
+                         {2000,3000,4000}, // port elizabeth:PS5,XBOX,SWITCH
+                         {1500,1100,1200} // pretoria:PS5,XBOX,SWITCH 
+                                           };
+        String []games ={"PS5","XBOX","SWITCH"};
+        String []city ={"Cape Town","Port Elizabeth","Pretoria"}; 
+        
+        double total=0;
+    
+    
+    
+     
+public static void main(String[] args) {
+       
+   // display heading 
+   
+   System.out.println("GAMING CONSOLE REPORT");
+   System.out.println("------------------------------");
+   
+   
+   // display headings colums 
+   System.out.println("games \tPS5\tXBOX\tSWITCH");
+   
+     // display sales 
+     for( int i =0;i<sales.length;i++){
+         
+     System.out.println("Sales"+"\t"+sales[i][0]+"\t"+sales[i][1]+"\t"+sales[i][2]);
+     
+     
+    
+     
+     }
+     
+     // display col 
+     
+     for(int j = 0;j<sales[i][col];j++){
+         
+         System.out.println("Cape Town"+city+"Port Elizabeth"+city+"Pretoria");
+     }
+     
+     // DISPLAY a sentence 
+     System.out.println(" --------------------------------------------");
+     System.out.println("CONSOLE SALES TOTAL;S FOR EACH CITY");
+     Sytem.out.println("----------------------------------------------");
+     
+     
+     
+     // display total of each city 
+     total= total+sales[i][col];
+     return total;
+     
+     System.out.println("TOATL:"+total[0]+"\t"+total[1]+"\t" +total[2]);
+     
+    
+     
+     
+     
+     
+     
+     
+     
+     
+             
+             
+     
+     
+     
+     
+     
+     
+     
+     
+     
+          
+     
+     
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    }
+}
