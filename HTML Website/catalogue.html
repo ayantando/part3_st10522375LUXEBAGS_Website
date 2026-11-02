@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+ !DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -13,12 +14,11 @@
             <div class="logo" aria-hidden="true">LB </div>
             <div class="site-title">
                 <h1>LUXE BAGS</h1>
-                <p class="tagline">Chic. Fashionably luxury handbags for him & her.</p>
+                <p class="tagline">Be a Dreamer-Be LUXE</p>
             </div>
         </div>
     </header>
-<nav class="nav" aria-label="Footer links">
-                <h4><Nav></Nav></h4>
+<nav class="nav" aria-label="navigation links">
                 
                     <a href="index.html">Home</a>
                     <a href="about us.html">About</a>
@@ -33,94 +33,34 @@
             <h1>LUXE BAGS</h1>
             <h2>To be a dreamer is to be a winner  </h2>
 
-                    <div class="row">
-                    <img src="Images/image 2.webp" width="250" length="150 ">
-                    <h3>Ted Tote </h3>
-                    <p>
-                        Brown vintage tote bag serving chic and vintage
-                    </p>
-                <p>R6500.00</p>
+        <section class="featured">
 
-                <a href="cart.html">Add to Cart</a>
-                
-            
+    <h2>Our Handbag Collection</h2>
 
+    <p>Discover your next favourite LUXE handbag.</p>
 
+    <!-- Product search -->
+    <div class="catalogue-controls">
 
-            
-           <img src="Images/Tote bag.webp" width="250"length="150">
+        <label for="product-search">Search handbags:</label>
 
-                <h3>Navy Dindy </h3>
+        <input
+            type="search"
+            id="product-search"
+            placeholder="Search by handbag name..."
+        >
 
-                <p>
-                 A dark navy tote bag .
-                </p>
+    </div>
 
-                <p>R1500.00</p>
+    <!-- Products will be displayed here -->
+    <div class="product-list" id="product-list"></div>
 
-                <a href="cart.html">Add to Cart</a>
-            
+    <!-- Message displayed when no products match -->
+    <p id="no-products" hidden>
+        No handbags found. Try another search.
+    </p>
 
-
-    
-           <img src="Images/image1.webp"width="250"length="150">
-                <h3> Barbie TINGZ</h3>
-
-                <p>
-                    small fashionable pink handbag 
-                </p>
-
-                <p>R5000.00</p>
-            
-                <a href="cart.html">Add to Cart</a>
-              
-
-
-
-             
-           <img src="Images/image 4.webp" width="250"length="150">
-
-           <h3> Winter Selection </h3>
-           <p> 
-
-            vintage demin tote
-           </p>
-
-           <p>R4500.00</p>
-
-           <a href="cart.html">Add to Cart</a>
-             
-
-        
-
-             
-           <img src="Images/image 5.webp"width="250"length="150">
-                <h3> Dirty Jo</h3>
-
-                <p>
-                    dark demin handbag
-                </p>
-
-                <p>R5000.00</p>
-            
-                <a href="cart.html">Add to Cart</a>
-
-             
-
-        
-           <img src="Images/image 6.webp" width="250"length="150">
-
-           <h3> Winter Selection </h3>
-           <p> 
-
-            small handbag for ladies 
-           </p>
-
-           <p>R4500.00</p>
-
-           <a href="cart.html">Add to Cart</a>
-
-         </div>
+</section>           
 
     </header>
 
@@ -158,6 +98,8 @@
 
 
 
-
+<script src="js/gallery.js" defer></script>
+<script src="js/products.js"defer></script>
 </body>
 </html>
+   
