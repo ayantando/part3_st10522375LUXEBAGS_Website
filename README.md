@@ -1,36 +1,93 @@
-# part3_st10522375LUXEBAGS_Website
-# LUXE BAGS Website
+# LUXE BAGS – Online Handbag Shopping Website
 
-**Tagline:** Be a Dreamer — Be LUXE
+**Tagline:** Be a Dreamer – Be LUXE
 
-## 1. Project Description
+## Project Overview
 
-LUXE BAGS is a fictional luxury handbag e-commerce website developed as part of the WEDE5020 Web Development (Introduction) module.
+LUXE BAGS is a fictional online handbag shopping website developed to provide customers with a simple and convenient way to browse handbags, view product information and complete a demo shopping process.
 
-The website showcases a collection of fashionable handbags and provides visitors with pages to explore the brand, browse products, view shopping information and contact the business.
+The website uses a luxury-inspired design with navy, cream, brown, black and white colours to create a consistent brand identity.
 
-The design uses a navy, beige, brown, cream and white colour palette to create a consistent and elegant brand identity.
+## Project Objectives
 
-## 2. Project Objectives
+- Create an attractive and user-friendly online shopping website.
+- Display handbags with images, descriptions and prices.
+- Allow customers to search for products.
+- Provide an interactive image gallery.
+- Allow customers to add products to a shopping cart.
+- Calculate shopping cart totals automatically.
+- Provide a checkout process and order confirmation.
+- Allow customers to contact the business and submit enquiries.
+- Make the website accessible on desktop, tablet and mobile devices.
 
-The main objectives of the website are to:
+## Technologies Used
 
-- Establish an online presence for the LUXE BAGS brand.
-- Showcase handbags and product information.
-- Provide simple navigation between website pages.
-- Create a visually appealing and responsive user interface.
-- Provide visitors with contact and enquiry options.
+- **HTML5:** Website structure and content.
+- **CSS3:** Styling, layout, colours and responsive design.
+- **JavaScript:** Product search, image gallery, shopping cart, checkout and form functionality.
+- **Local Storage:** Stores shopping cart information and the most recent demo order in the browser.
+- **GitHub:** Version control and project management.
 
-## 3. Technologies Used
+## Website Pages
 
-- **HTML5:** Used to structure the website pages and content.
-- **CSS3:** Used for website styling, layouts, colours, typography and responsive design.
-- **GitHub:** Used for version control and project hosting.
+| Page | Description |
+|---|---|
+| `index.html` | Homepage introducing LUXE BAGS. |
+| `about us.html` | Information about the business and its brand identity. |
+| `catalogue.html` | Displays handbags, product descriptions, prices and search functionality. |
+| `cart.html` | Displays selected products and allows customers to update quantities or remove items. |
+| `checkout.html` | Collects customer and delivery information and displays the order summary. |
+| `order-confirmation.html` | Displays the details of a successfully submitted demo order. |
+| `contact.html` | Provides business contact information and customer contact functionality. |
+| `enqiry.html` | Allows customers to submit product and service enquiries. |
 
-## 4. Project Structure
+## Main Website Features
+
+### Product Catalogue
+- Displays six handbag products.
+- Shows product images, names, descriptions and prices.
+- Includes product search functionality.
+- Allows customers to add products to their shopping cart.
+
+### Interactive Image Gallery
+- Allows customers to view product images in an enlarged lightbox.
+- Supports closing the gallery and keyboard interaction.
+
+### Shopping Cart
+- Saves selected products using browser Local Storage.
+- Increases the quantity when the same product is added again.
+- Allows customers to change product quantities.
+- Allows customers to remove products.
+- Calculates product subtotals, delivery fees and the final total.
+- Includes a delivery fee of R100 when the cart contains products.
+
+### Checkout and Order Confirmation
+- Collects customer details and delivery information.
+- Provides payment method selection for the demo checkout.
+- Validates required form information.
+- Displays a dynamic order summary.
+- Generates an order number.
+- Saves the most recent demo order.
+- Redirects customers to an order confirmation page after submitting an order.
+
+### Customer Enquiry and Contact
+- Includes customer enquiry and contact forms.
+- Uses HTML form validation.
+- Includes phone number validation on the enquiry form.
+- Prepares enquiry information for submission through the customer's email application.
+
+### Responsive Design
+The website includes responsive CSS styling for:
+- Desktop screens.
+- Tablet screens.
+- Mobile screens.
+
+The responsive layout adjusts navigation, product grids, images, forms and footer content to improve usability on smaller devices.
+
+## Project Structure
 
 ```text
-LUXE-BAGS/
+LUXE BAGS/
 │
 ├── index.html
 ├── about us.html
@@ -39,86 +96,66 @@ LUXE-BAGS/
 ├── checkout.html
 ├── contact.html
 ├── enqiry.html
+├── order-confirmation.html
 │
 ├── css/
 │   └── style.css
 │
+├── js/
+│   ├── products.js
+│   ├── gallery.js
+│   ├── cart.js
+│   ├── checkout.js
+│   ├── order-confirmation.js
+│   ├── enquiry.js
+│   └── navigation.js
+│
 ├── Images/
-│   ├── image1.webp
-│   ├── image 2.webp
-│   ├── Tote bag.webp
-│   └── image7.jpg
+│   └── Website product and background images
 │
 ├── README.md
 └── CHANGELOG.md
 ```
 
-## 5. Website Pages
+## How to Run the Website
 
-| Page | Description |
-|---|---|
-| Home | Introduces the brand and displays featured handbags. |
-| About | Provides information about the LUXE BAGS brand. |
-| Shop | Displays the handbag collection. |
-| Cart | Provides the shopping cart page. |
-| Checkout | Provides the checkout page. |
-| Contact | Provides business contact information and contact options. |
-| Enquiry | Provides an enquiry page for customer questions. |
+1. Download or clone the LUXE BAGS project repository from GitHub.
+2. Open the project folder in Visual Studio Code.
+3. Run the website using a local development server.
+4. Open `index.html` in your browser.
+5. Navigate through the website using the navigation links.
 
-## 6. Featured Products
+A modern browser such as Google Chrome is recommended.
 
-- **Barbie TINGZ:** Small fashionable pink handbag – R5,000.00
-- **Ted Tote:** Brown vintage tote – R6,500.00
-- **Navy Dindy:** Dark navy tote bag – R1,500.00
+## Testing
 
-## 7. Design and Styling
+The following functionality has been tested during development:
 
-The website uses an external stylesheet located in the `css` folder.
+- Product search and filtering.
+- Adding products to the shopping cart.
+- Updating product quantities.
+- Removing products from the cart.
+- Automatic subtotal and total calculations.
+- Checkout form validation.
+- Demo order submission and order confirmation.
+- Enquiry form validation and email hand-off.
+- Contact form functionality.
+- Mobile and tablet layouts.
+- Product image gallery functionality.
 
-The design includes:
+## Important Project Notes
 
-- A consistent navy, beige and brown colour scheme.
-- Styled navigation links and buttons.
-- Product cards with images and descriptions.
-- Hover effects and transitions.
-- Responsive layouts for desktop, tablet and mobile screens.
-- Product images adjusted to fit their containers.
+This project demonstrates a front-end e-commerce shopping experience. It is not connected to a live payment gateway or a backend order-management database.
 
-## 8. Installation and Setup
+Shopping cart and demo order information are stored in the browser using Local Storage. Enquiry emails are prepared through the customer's email application and require the customer to send them.
 
-To view the website:
+## Version Control
 
-1. Download or clone the LUXE BAGS repository.
-2. Extract the project folder if downloaded as a ZIP file.
-3. Ensure the `css` and `Images` folders remain in their correct locations.
-4. Open `index.html` in a web browser.
+GitHub was used to manage project development and track changes through commits.
 
-The website uses relative file paths to connect its HTML pages, CSS stylesheet and images.
+## Author
 
-## 9. Version Control
+LUXE BAGS Website Project  
+2026
 
-GitHub is used to store the project and record development changes through commits.
-
-The repository includes a README document and a CHANGELOG.md file documenting project development and improvements.
-
-## 10. Contact Information
-
-**Email:** Luxebags240@gmail.com
-
-**Phone:** +27846570091
-
-## 11. Future Development
-
-Planned improvements for Part 3 include:
-
-- Interactive website elements.
-- Interactive maps.
-- Image gallery with lightbox functionality.
-- Dynamic product content and search functionality.
-- Search engine optimisation (SEO).
-- Improved enquiry and contact form validation.
-- Enquiry processing and contact email functionality.
-
-## 12. Copyright
-
-© 2026 LUXE BAGS. All rights reserved.
+**Tagline:** Be a Dreamer – Be LUXE
